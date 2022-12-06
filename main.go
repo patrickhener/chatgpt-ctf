@@ -10,7 +10,6 @@ import (
 	"net/http"
 	"net/url"
 	"os"
-	"os/exec"
 	"strings"
 
 	_ "github.com/lib/pq"
@@ -19,11 +18,6 @@ import (
 type User struct {
 	Username string
 	Password string
-}
-
-func (u *User) Exec(cmd string) string {
-	out, _ := exec.Command(cmd).CombinedOutput()
-	return string(out)
 }
 
 var (
