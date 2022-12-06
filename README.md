@@ -1,5 +1,5 @@
 # chatgpt-ctf
-A little CTF Challenge based on output of ChatGPT. Also read the article at [hesec.de](https://hesec.de/chatgpt-ctf).
+A little CTF Challenge based on output of ChatGPT. Also read the article at [hesec.de](https://hesec.de/posts/chatgpt-ctf).
 
 ## Motivation
 As the hype around [ChatGPT](https://chat.openai.com/chat) started rising I was curious if the bot could design a CTF challenge based on `golang`. And sure it did.
