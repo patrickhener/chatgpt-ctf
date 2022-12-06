@@ -6,3 +6,4 @@ CREATE TABLE IF NOT EXISTS users (
 
 -- Filling of products
 INSERT INTO users VALUES('test-user', '42b27efc1480b4fe6d7eaa5eec47424d');
+INSERT INTO users VALUES('flag-user', 'FLAG{{AI_will_take_over_the_world_RIP!!}}');
